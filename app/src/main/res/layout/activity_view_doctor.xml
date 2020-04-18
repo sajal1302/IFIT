@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adapter.ViewDoctorActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/drjay"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+
+        android:text="Name: Dr Jay"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+
+        android:text="Profession: Psychiatrist"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+
+        android:text="Contact No: 8860425802"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+
+        android:text="Timings: 11 a.m. - 2:00 p.m."/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Talk to Doctor"
+    android:id="@+id/doctalkclick"
+    android:onClick="talkdoctor"
+    android:background="@drawable/button_round"
+    android:layout_gravity="center_horizontal|bottom"
+    android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/emcontacts"
+        android:orderInCategory="100"
+        android:title="Emergency Contacts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pedometer"
+        android:orderInCategory="100"
+        android:title="Track Your Steps"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/userprofile"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/camera_image"
+        android:icon="@drawable/ic_menu_camera"
+        android:orderInCategory="100"
+        android:title="Camera"
+        app:showAsAction="always" />
+
+</menu>
